@@ -1,16 +1,44 @@
-# Albero - Directory Tree Visualization Tool
+# 🌳 Albero-viz — Directory Tree Visualization Tool
 
-A simple command-line tool to visualize directory structures with colored output.
+**Albero-viz** is a simple, fast, and colorful command-line tool to visualize directory structures.
 
-## Features
+## ✨ Features
 
-- 🌳 Beautiful tree-like directory visualization
-- 🎨 Colored output (blue for directories, green for files)
-- 📁 Option to show only directories
-- 🚀 Fast and lightweight
-- 🐍 Pure Python, no external dependencies
+- 🌲 **Tree-style visualization** of directory structures  
+- 🎨 **Colored output**  
+  - **Blue** for directories  
+  - **Green** for files  
+- 📁 Option to **display only directories**  
+- ⚡ **Fast and lightweight**  
+- 🐍 **Pure Python** — no external dependencies  
 
-## Installation
+## 📦 Installation
 
 ```bash
-pip install albero
+pip install albero-viz
+```
+
+## 🚀 Usage
+
+### Show a directory tree
+
+```bash
+albero -p /path/to/directory
+# or
+albero --path /home/user/projects
+```
+
+### Show only directories
+
+```bash
+albero -f -p /path/to/directory
+```
+
+## 🛠️ Options
+
+| Option        | Description                         |
+|---------------|-------------------------------------|
+| `-p`          | Path to the directory to visualize  |
+| `-f`          | Show only folders (no files)        |
+
+
